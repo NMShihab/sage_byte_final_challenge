@@ -1,0 +1,70 @@
+.hero {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-container {
+  position: absolute;
+  width: 700px;
+  left: 60px;
+  top: 284px;
+}
+
+.hero-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 67px;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 28px;
+}
+.bottom-shadow {
+  background: linear-gradient(
+    344.8deg,
+    #07203f 10.96%,
+    rgba(7, 32, 63, 0.97) 27.75%,
+    rgba(7, 32, 63, 0.71) 50.69%,
+    rgba(7, 32, 63, 0.23) 73.05%,
+    rgba(7, 32, 63, 0) 89.59%
+  );
+  width: 100vw;
+  height: 178px;
+  top: 100%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-container {
+    width: 400px;
+    left: 30px;
+  }
+  .hero-text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .hero-btn {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .text-container {
+    width: 300px;
+    left: 30px;
+  }
+  .hero-text {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .hero-btn {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
